@@ -24,5 +24,16 @@ public class Fernseher {
         return smartTv;
     }
 
-    
+    // - Setter Metotları
+    public void setHersteller(String hersteller) {
+        this.hersteller = hersteller;
+    }
+
+    public void setZoll(int zoll) {
+        this.zoll = zoll;
+    }
+
+    public void setSmartTv(boolean smartTv) {
+        this.smartTv = smartTv;
+    }
 }
